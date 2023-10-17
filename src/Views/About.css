@@ -1,0 +1,22 @@
+#about-picture{
+    display: none;
+}
+
+#about-section {
+    height: 60%;
+    margin: 0 4%;
+    margin-bottom: 10%;
+}
+
+@media screen and (min-width: 43em) {
+   
+    #about-picture {
+        display: inline;
+        margin-left: 5%;
+        margin-right: 2%;
+        float: right;
+        width: 40%;
+        height: 100%;
+        max-width: 450px;
+    }
+}

@@ -1,0 +1,10 @@
+.contact {
+    padding: 4% 2%;
+    text-align: center;
+    margin: 5% 0;
+    border: #303745 1px solid;
+    border-radius: 3%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 22%;
+}
