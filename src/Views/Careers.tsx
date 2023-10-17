@@ -1,6 +1,6 @@
-import Footer from "../Footer/Footer"
-import Header from "../Header/Header"
-import NavBar from "../NavBar/NavBar"
+import Footer from "../components/Footer/Footer"
+import Header from "../components/Header/Header"
+import NavBar from "../components/NavBar/NavBar"
 import StackOverflow from "/stack-overflow.svg"
 import { useEffect } from "react"
 

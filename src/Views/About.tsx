@@ -1,9 +1,9 @@
 import pic from "/building.jpg"
 import { useEffect } from "react";
 import './About.css'
-import Header from "../Header/Header";
-import NavBar from "../NavBar/NavBar";
-import Footer from "../Footer/Footer";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
+import NavBar from "../components/NavBar/NavBar";
 
 function MainText(props:{text: string}) {
 

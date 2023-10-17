@@ -1,7 +1,7 @@
 import { useEffect } from "react"
-import Header from "../Header/Header"
-import Footer from "../Footer/Footer"
-import NavBar from "../NavBar/NavBar"
+import Footer from "../components/Footer/Footer"
+import Header from "../components/Header/Header"
+import NavBar from "../components/NavBar/NavBar"
 
 export default function Projects() {
 
