@@ -30,6 +30,7 @@ footer {
 
 .bottom-contact {
     display: flex;
+    column-gap: 1vw;
     align-items: center;
     justify-content: center;
 }

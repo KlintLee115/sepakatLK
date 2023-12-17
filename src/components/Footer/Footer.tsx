@@ -1,3 +1,4 @@
+import { CSSProperties } from 'react'
 import { useWindowDimensions } from '../../App'
 import './Footer.css'
 import Logo from './logoRemovebgPreview.jpg'
@@ -6,7 +7,7 @@ import { HiLocationMarker, HiMailOpen } from 'react-icons/hi'
 
 export default function Footer() {
 
-    const copyright: any = {
+    const copyright: CSSProperties = {
         background: "#303745",
         color: "#afb0b2",
         fontSize: "14px",
@@ -17,7 +18,7 @@ export default function Footer() {
         margin: 0
     }
 
-    const iconColor = "black"
+    const iconColor = "#cccccc"
 
     const { width } = useWindowDimensions();
 
