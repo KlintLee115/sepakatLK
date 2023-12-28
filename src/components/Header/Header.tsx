@@ -1,40 +1,33 @@
 import logo from './logo.png'
 import { AiFillPhone } from 'react-icons/ai'
 import { HiLocationMarker, HiMailOpen } from 'react-icons/hi'
-import { useWindowDimensions } from '../../App'
-import './Header.css'
 
 export default function Header() {
 
-    function logoClick() {
-        window.location.href = "/"
-    }
+    const logoClick = () => window.location.href = "/"
 
-    const { width } = useWindowDimensions();
+    const ContactStyle: string = "mx-[1%] my-0 w-full flex items-center justify-center md:w-fit"
 
+    return <header className='text-center flex flex-col m-[2%] items-center md:flex-row md:gap-[5vw]'>
 
-    let locationIconSize = width > 687 ? width > 1100 ? "1cm" : "1.8cm" : "0.5cm"
+        <img className='w-[35%] h-[10%] hover:cursor-pointer mb-[3vh] md:w-[25vw]' src={logo} alt="" onClick={logoClick} />
 
-    return <header>
-
-        <img src={logo} alt="" onClick={logoClick} />
-
-        <div id="top-contacts">
-            <div className='top-contact' >
+        <div className='mb-[3vh] flex flex-wrap md:flex-row gap-[3vh] md:gap-[2vw] justify-center items-center flex-col w-full'>
+            <div className={ContactStyle} >
 
                 <AiFillPhone size="0.5cm" />
                 <p>+603-8940 1833</p>
             </div>
-            <div className='top-contact'>
+            <div className={ContactStyle}>
 
                 <HiMailOpen size={"0.5cm"} />
 
                 <p>sepakatlk@yahoo.com</p>
             </div>
 
-            <div className="top-contact">
+            <div className={ContactStyle}>
 
-                <HiLocationMarker size={locationIconSize} />
+                <HiLocationMarker size={"0.5cm"} />
                 <p>1-1, Jalan PUJ 3/5,
                     Taman Puncak Jalil
                     Bandar Putra Permai

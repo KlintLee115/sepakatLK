@@ -1,8 +1,7 @@
-export const config = {
-    plugins: {
-      autoprefixer: {},
-      // Remove or comment out tailwindcss
-      // tailwindcss: {},
-    }
+// postcss.config.js
+export default  {
+  plugins: {
+    autoprefixer: {},
+    tailwindcss: {},
   }
-  
+}
