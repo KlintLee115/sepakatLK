@@ -1,2 +1,18 @@
-@media screen and (min-width: 43em) {
+#home #banner img {
+    opacity: 65%;
+    width: 100%;
+}
+
+#home #banner h2 {
+    color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+    #home #banner img {
+        opacity: 30%;
+    }
+
+    #home #banner h2 {
+        color: rgb(255, 255, 255, 0.7);
+    }
 }

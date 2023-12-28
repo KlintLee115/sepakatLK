@@ -8,3 +8,10 @@
     flex-shrink: 0;
     flex-basis: 22%;
 }
+
+@media (prefers-color-scheme: dark) {
+    .contact {
+        border: white 1px solid;
+
+    }
+}

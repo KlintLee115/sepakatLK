@@ -5,18 +5,7 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import NavBar from "../components/NavBar/NavBar";
 
-function MainText(props:{text: string}) {
-
-    const style = {
-        textAlign: "left",
-        fontWeight: 400,
-        fontSize: "16px",
-        lineHeight: "26px",
-        color: "#505050"
-    }
-
-    return <p style={style as any}>{props.text}</p>
-}
+const MainText = ({text}: {text: string}) => <p>{text}</p>
 
 export default function About() {
 

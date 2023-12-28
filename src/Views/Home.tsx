@@ -14,7 +14,6 @@ export default function Home() {
         whiteSpace: "nowrap",
         position: "absolute",
         textAlign: "center",
-        color: "black",
         fontSize: width > 687 ? width > 992 ? "4rem" : "3rem" : "2rem", 
         top: "40%",
         left: "50%",
@@ -25,7 +24,7 @@ export default function Home() {
         <Header />
         <NavBar currView="HOME" />
         <div id="banner" style={{ "position": "relative", "width": "auto"}}>
-            <img src={Building} style={{ "width": "100%", "opacity": "70%" }} alt="A project"/>
+            <img src={Building} alt="A project"/>
             <h2 style={h2Style}>We Are<br /> THE BUILDER OF CHOICE</h2>
         </div>
         <Footer/>

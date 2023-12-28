@@ -1,4 +1,4 @@
-#about-picture{
+#about-picture {
     display: none;
 }
 
@@ -9,7 +9,7 @@
 }
 
 @media screen and (min-width: 43em) {
-   
+
     #about-picture {
         display: inline;
         margin-left: 5%;
@@ -18,5 +18,11 @@
         width: 40%;
         height: 100%;
         max-width: 450px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    #about-section p{
+        color: rgba(255, 255, 255, 0.8);
     }
 }
